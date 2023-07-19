@@ -49,7 +49,10 @@
                         </div>
 
                 <?php endif; ?>
-
+                <!-- ********** 
+                    O próximo erro ocorre quando o usuario tenta acessar uma pagina do sistema sem estar
+                      logado 
+                  ********** -->
                 <?php
                       if(isset($_GET['login']) && $_GET['login'] == 'erro2'):
                 ?>
@@ -58,7 +61,7 @@
                             Faça login antes de acessar as páginas protegidas.
                         </div>
 
-                <?php endif; ?>
+                <?php endif; ?> 
 
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
               </form>

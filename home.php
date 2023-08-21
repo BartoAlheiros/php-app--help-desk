@@ -1,4 +1,4 @@
-<?php require_once "validador_acesso.php"; ?>
+<?php require_once "./components/validador/validador_acesso.php"; ?>
 
 <html>
   <head>
@@ -23,7 +23,7 @@
         <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
-      <?php include("./components/sair.php"); ?>
+      <?php include("./components/logoff/sair.php"); ?>
     </nav>
 
     <div class="container">    
@@ -37,12 +37,12 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-6 d-flex justify-content-center">
-                  <a href="abrir_chamado.php">
+                  <a href="./abrir_chamado.php">
                     <img src="./img/formulario_abrir_chamado.png" width="70" height="70">
                   </a>      
                 </div>
                 <div class="col-6 d-flex justify-content-center">
-                  <a href="consultar_chamado.php">
+                  <a href="./consultar_chamado.php">
                     <img src="./img/formulario_consultar_chamado.png" width="70" height="70">
                   </a>
                 </div>

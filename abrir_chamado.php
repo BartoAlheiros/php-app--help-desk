@@ -1,4 +1,4 @@
-<?php require_once "validador_acesso.php"; ?>
+<?php require_once "./components/validador/validador_acesso.php"; ?>
 
 <html>
   <head>
@@ -23,7 +23,7 @@
         <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
-      <?php include("./components/sair.php"); ?>
+      <?php include("./components/logoff/sair.php"); ?>
     </nav>
 
     <div class="container">    

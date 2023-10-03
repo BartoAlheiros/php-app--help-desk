@@ -1,5 +1,21 @@
 <?php require_once "./components/validador/validador_acesso.php"; ?>
 
+<?php
+
+    //abrir o arquivo .hd
+    $arquivo = fopen('arquivo.hd', 'r');
+
+    //enquanto houver registros (linhas) a serem recuperados
+    while( !feof( $arquivo ) ) { //testa pelo fim de um arquivo
+        //linhas
+        fgets($arquivo);
+    }
+
+    //fechar o arquivo aberto
+    fclose($arquivo);
+
+?>
+
 <html>
   <head>
     <meta charset="utf-8" />

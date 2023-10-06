@@ -58,7 +58,7 @@
                 ?>
                                         
                         <div class="text-danger">
-                            Faça login antes de acessar as páginas protegidas.
+                            Faça login novamente para acessar.
                         </div>
 
                 <?php endif; ?> 

@@ -1,4 +1,8 @@
-<?php require_once "./components/validador/validador_acesso.php"; ?>
+<?php
+
+  require_once "./components/validador/validador_acesso.php";
+  
+?>
 
 <html>
   <head>
@@ -39,12 +43,14 @@
                 <div class="col-6 d-flex justify-content-center">
                   <a href="./abrir_chamado.php">
                     <img src="./img/formulario_abrir_chamado.png" width="70" height="70">
-                  </a>      
+                  </a>
+                  <p>Abrir chamado</p>      
                 </div>
                 <div class="col-6 d-flex justify-content-center">
                   <a href="./consultar_chamado.php">
-                    <img src="./img/formulario_consultar_chamado.png" width="70" height="70">
+                    <img src="./img/formulario_consultar_chamado.png" width="70" height="70">                    
                   </a>
+                  <p>Consultar chamado</p>
                 </div>
               </div>
             </div>

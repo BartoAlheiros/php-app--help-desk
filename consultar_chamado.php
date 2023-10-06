@@ -18,7 +18,12 @@
           continue;
         }
 
-        if($_SESSION['perfil_id'] == 2) {
+        if($_SESSION['perfil_id'] == 1) {
+
+          $chamados[] = $chamado_dados;
+       
+        } elseif($_SESSION['perfil_id'] == 2) {
+
           //so vamos exibir o chamado, se ele foi criado pelo usuario
           if($_SESSION['id'] != $chamado_dados[0]) {
             continue;
@@ -26,10 +31,6 @@
 
           $chamados[] = $chamado_dados;
 
-        } else if($_SESSION['perfil_id'] == 1) {
-
-          $chamados[] = $chamado_dados;
-          
         }
     }
 

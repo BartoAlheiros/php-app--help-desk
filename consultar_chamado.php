@@ -6,7 +6,7 @@
     $chamados = array();
 
     //abrir o arquivo .hd
-    $arquivo = fopen('./controller/arquivo.hd', 'r');
+    $arquivo = fopen('../../php-app--help-desk/arquivo.hd', 'r');
 
     //enquanto houver registros (linhas) a serem recuperados
     while( !feof( $arquivo ) ) { //testa pelo fim de um arquivo

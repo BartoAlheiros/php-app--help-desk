@@ -85,7 +85,7 @@
                     <p class="card-text"><?php echo $chamado[3]; ?></p>
                   </div>
                 </div>
-
+      
               <?php } ?>
 
               <div class="row mt-5">

@@ -23,16 +23,19 @@
   <body>
 
     <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
-        <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-        App Help Desk
-      </a>
-      <p style="color: white">Bem vindo(a), <?php echo$_SESSION['login_user'] ?>!</p>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="./components/logoff/logoff.php">SAIR</a>
-        </li>
-      </ul>    
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          App Help Desk
+        </a>
+        <span class="navbar-text ml-auto" style="color: white">Bem vindo(a), <?php echo$_SESSION['login_user'] ?>!</span>
+        &nbsp;&nbsp;&nbsp;
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./components/logoff/logoff.php">SAIR</a>
+          </li>
+        </ul>    
+      </div>  
     </nav>
 
     <div class="container">    

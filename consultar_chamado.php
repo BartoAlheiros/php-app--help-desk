@@ -83,8 +83,6 @@
                     <h5 class="card-title"><?php echo $chamado[1]; ?></h5>
                     <h6 class="card-subtitle mb-2 text-muted"><?php echo $chamado[2]; ?></h6>
                     <p class="card-text"><?php echo $chamado[3]; ?></p>
-                    <button type="button" class="btn btn-warning">Editar</button>
-
                   </div>
                 </div>
 

@@ -27,7 +27,12 @@
         <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
-      <?php include("./components/logoff/sair.php"); ?>
+      <p style="color: white">Bem vindo(a), <?php echo$_SESSION['login_user'] ?>!</p>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./components/logoff/logoff.php">SAIR</a>
+        </li>
+      </ul>    
     </nav>
 
     <div class="container">    
